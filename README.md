@@ -5,7 +5,7 @@ The Odin Project JavaScript project that created a Rock - Paper- Scissors game.
 # Instructions
 After setting up repository and environement:
 
-Step 1: Write the logic to get the computer choice
+# Step 1: Write the logic to get the computer choice
 Your game will be played against the computer. You will write a function that randomly returns “rock”, “paper” or “scissors”.
 
 Create a new function named getComputerChoice.
@@ -18,7 +18,7 @@ Note: Some learners might think that arrays are necessary for this problem, but 
 
 Test that your function returns what you expect using console.log or the browser developer tools before advancing to the next step.
 
-Step 2: Write the logic to get the human choice
+# Step 2: Write the logic to get the human choice
 Your game will be played by a human player. You will write a function that takes the user choice and returns it.
 
 Create a new function named getHumanChoice.
@@ -29,14 +29,14 @@ Hint: Use the prompt method to get the user’s input.
 You do not need to handle reprompting if the user enters an invalid input, as that would require things we will teach later. For now, just assume the user will always enter a valid choice.
 Test what your function returns by using console.log.
 
-Step 3: Declare the players score variables
+# Step 3: Declare the players score variables
 Your game will keep track of the players score. You will write variables to keep track of the players score.
 
 Create two new variables named humanScore and computerScore in the global scope.
 
 Initialize those variables with the value of 0.
 
-Step 4: Write the logic to play a single round
+# Step 4: Write the logic to play a single round
 Your game will be played round by round. You will write a function that takes the human and computer player choices as arguments, plays a single round, increments the round winner’s score and logs a winner announcement.
 
 Create a new function named playRound.
@@ -60,7 +60,7 @@ const computerSelection = getComputerChoice();
 
 playRound(humanSelection, computerSelection);
 
-Step 5: Write the logic to play the entire game
+# Step 5: Write the logic to play the entire game
 Your game will play 5 rounds. You will write a function named playGame that calls playRound to play 5 rounds, keeps track of the scores and declares a winner at the end.
 
 Create a new function named playGame.
