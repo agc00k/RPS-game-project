@@ -1,6 +1,6 @@
 # RPS-game-project
 
-The Odin Project JavaScript project that created a Rock - Paper- Scissors game.
+The Odin Project JavaScript project to create a Rock - Paper- Scissors game.
 
 # Instructions
 After setting up repository and environement:
