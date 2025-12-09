@@ -12,6 +12,7 @@ function getGpuChoice() {
 
 // Logic for getting the human choice
 // Moved const inside function for playGame
+// I preferred to use number selection over strings
 
 function getBioChoice() {
     const bioVar = parseInt(prompt("Please select 0 for 'Rock', 1 for 'Paper', or 2 for 'Scissors': "));
