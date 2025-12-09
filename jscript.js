@@ -23,7 +23,7 @@ function getBioChoice() {
 // Logic for 5 Rounds of Rock-Paper-Scissors Game
 // Moved playRound function insire playGame
 // Added loop of rounds, round messaging, and final game announcement
-// Had help for loop function
+// Had help on loop function
 
 function playGame(){
 
